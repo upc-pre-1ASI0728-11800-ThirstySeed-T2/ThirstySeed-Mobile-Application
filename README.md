@@ -1,1 +1,0 @@
-# ThirstySeed-Mobile-Application
