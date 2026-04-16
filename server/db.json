@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "8901",
+      "name": "Richard",
+      "lastName": "Acuña",
+      "city": "USA",
+      "telephone": "+51 960-330-881",
+      "email": "prueba@gmail.com",
+      "password": "prueba",
+      "imageUrl": "https://www.zoobioparqueamaru.com/nuestros-animales/aves/51-zoo-cuenca.jpg",
+      "plots": [
+        {
+          "id": "1",
+          "name": "Loreto Plot",
+          "location": "lima",
+          "extension": "100",
+          "status": "Supplied",
+          "size": "100",
+          "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSS6lwsRARp6AIliaP06qi4WokbeHKNPcyArMB2rwpOSHFDPAyd"
+        }
+      ],
+      "waterSupplier": {
+        "name": "Sedapal",
+        "logo": "https://pbs.twimg.com/profile_images/1557423579599446016/yC3WRAP6_200x200.jpg"
+      }
+    },
+    {
+      "id": "8902",
+      "name": "Giakomo",
+      "lastName": "Causso",
+      "city": "Peru",
+      "telephone": "+51 987-654-321",
+      "email": "giakroma@gmail.com",
+      "password": "1234",
+      "imageUrl": "https://us.123rf.com/450wm/stockbroker/stockbroker2306/stockbroker230600044/207473089-retrato-de-un-hombre-mayor-sonriente-parado-al-aire-libre-en-el-parque-jard%C3%ADn-o-en-el-campo.jpg?ver=6",
+      "plots": [
+        {
+          "id": "2",
+          "name": "Puno Plot",
+          "location": "west",
+          "extension": "200",
+          "status": "Not Supplied",
+          "size": "200",
+          "imageUrl": "https://i.ytimg.com/vi/CTdTC4fO89I/maxresdefault.jpg"
+        }
+      ],
+      "waterSupplier": {
+        "name": "Aguas del Sur",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDCxrgKejqQ0rL5v-6ojbB2xkk9CtXoaKdQ&s"
+      }
+    },
+    {
+      "id": "8eee",
+      "name": "PURA",
+      "lastName": "PURA",
+      "city": "PURAVIDA",
+      "telephone": "963852741",
+      "email": "a.varquispe@PURAPURA.com",
+      "password": "123",
+      "imageUrl": "https://us.123rf.com/450wm/stockbroker/stockbroker2306/stockbroker230600044/207473089-retrato-de-un-hombre-mayor-sonriente-parado-al-aire-libre-en-el-parque-jard%C3%ADn-o-en-el-campo.jpg?ver=6",
+      "plots": [
+        {
+          "id": "3",
+          "name": "Pucará Plot",
+          "location": "Pucará, Peru",
+          "extension": "100",
+          "status": "Supplied",
+          "size": "100",
+          "imageUrl": "https://i.pinimg.com/564x/41/52/e2/4152e208971ee40322e0dffbc94b2436.jpg"
+        }
+      ],
+      "waterSupplier": {
+        "name": "Aguas Andinas",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW4sSDQ-1XIZL-fC4IBpoDFj8vJOAs6vwiaA&s"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "cardNumber": "4242424242424242",
+      "expiry": "12/34",
+      "cvc": "123",
+      "balance": 100,
+      "currency": "PEN",
+      "id": "0b8a"
+    },
+    {
+      "cardNumber": "4000000000009995",
+      "expiry": "12/34",
+      "cvc": "123",
+      "balance": 5,
+      "currency": "PEN",
+      "id": "83ba"
+    }
+  ],
+  "irrigationSchedules": [
+    {
+      "id": "7e9f",
+      "expectedMoisture": "40%",
+      "plotSize": "100 m2",
+      "estimatedTime": "3 horas",
+      "setTime": "08:15 pm",
+      "requiredWaterAmount": "500 cm3 (500 l)",
+      "sprinklerRadius": "7 m",
+      "angle": "30 grados",
+      "pressure": "50 psi",
+      "isAutomatic": true,
+      "plotId": "1"
+    },
+    {
+      "id": "8a2b",
+      "expectedMoisture": "45%",
+      "plotSize": "150 m2",
+      "estimatedTime": "4 horas",
+      "setTime": "07:30 pm",
+      "requiredWaterAmount": "600 cm3 (600 l)",
+      "sprinklerRadius": "8 m",
+      "angle": "45 grados",
+      "pressure": "55 psi",
+      "isAutomatic": false,
+      "plotId": "2",
+      "isActive": true
+    }
+  ]
+}

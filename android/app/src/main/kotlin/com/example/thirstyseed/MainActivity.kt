@@ -1,0 +1,5 @@
+package com.example.thirstyseed
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity()
